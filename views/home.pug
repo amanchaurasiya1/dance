@@ -1,0 +1,20 @@
+extends base.pug
+block scripts 
+    script(src="index.js")
+block style
+    style 
+        include ../static/index.css
+block content
+        section#introSection
+            div 
+                h3 Welcome To The Aman's Dance Club
+            div 
+                h5 world best dancing club
+        section#sponsorSection 
+            div.sponsor 
+                h1 Our Sponsors 
+                div.images 
+                    img(src="../static/apple.png", alt="")
+                    img(src="../static/amazon.png", alt="")
+                    img(src="../static/microsoft.png", alt="")
+                    img(src="../static/google.png", alt="")  
